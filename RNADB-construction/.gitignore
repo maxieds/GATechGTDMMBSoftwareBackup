@@ -1,0 +1,17 @@
+*.pyc
+*.out
+*.code
+*.csv
+*.txt
+rna2ndary/SampleOutTesting
+rna2ndary/SampleOutTesting/*
+rna2ndary/SampleOutTesting*
+rna2ndary/SampleOutTesting*/*
+rna2ndary/OldCode
+rna2ndary/OldCode/*
+rna2ndary/__pycache__
+rna2ndary/__pycache__/*
+rna2ndary/SampleOutDir*/
+rna2ndary/SampleOutDir*/*
+rna2ndary/TestOutputs
+rna2ndary/TestOutputs/*

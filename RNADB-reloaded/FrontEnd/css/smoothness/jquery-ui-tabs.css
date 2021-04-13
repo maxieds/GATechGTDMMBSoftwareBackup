@@ -1,0 +1,148 @@
+/*
+ * jQuery UI CSS Framework 1.8.17
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+ 
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+/*.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; color: #222222; }*/
+.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff; color: #222222; }
+.ui-widget-content a { color: #222222; }
+/*.ui-widget-header { border: 1px solid #aaaaaa; background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; color: #222222; font-weight: bold; }*/
+.ui-widget-header { border: 1px solid #aaaaaa; background: #ffffff; color: #222222; font-weight: bold; }
+.ui-widget-header a { color: #222222; }
+
+/* --- Tabs --- */
+	
+.ui-tabs {
+	margin: 0px;
+	margin-top: 15px;
+	padding: 4px;
+	padding-top: 20px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eaeaea'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eaeaea)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #eaeaea); /* for firefox 3.6+ */ 
+	background-color: #FCFCFC;/*border-top:0px;height:300px;overflow:auto;*/
+	}
+	
+.ui-tabs .ui-tabs-nav h2,
+.ui-tabs .ui-tabs-nav h3,
+.ui-tabs .ui-tabs-hide {
+	display: none;
+	}
+	
+.ui-tabs .ui-tabs-nav {
+	font-family: VegurLight,Helvetica,sans-serif;
+	margin:0;
+	display:inline;
+	list-style: none;
+	list-style-image: none;
+	background: none;
+	line-height: normal;
+	height: auto;
+	border: none;
+	text-align:left;
+	}
+	
+.ui-tabs .ui-tabs-nav li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	list-style-image:none;
+	background:none;
+	display:inline;
+	border: none;
+	}
+	
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs .ui-tabs-nav li a:link {
+	font-size:18px; 
+	margin:0px;
+	color:#313035;
+	background:none repeat scroll 0 0 #EDEDED;
+	font-family: VegurLight,Helvetica,sans-serif;
+	-moz-border-radius: 3px 3px 0 0; 
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	padding: 10px 30px 5px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eaeaea'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eaeaea)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #eaeaea); /* for firefox 3.6+ */ 
+	border: 1px solid #D4D4D4;
+	text-shadow: 0px 1px 0px #D4D4D4;
+	height: 30px;
+	}
+	
+.ui-tabs .ui-tabs-nav li a:visited {
+	font-family: VegurLight,Helvetica,sans-serif;
+	color:#333;
+	}
+
+.ui-tabs .ui-tabs-nav li a:hover {
+	font-family: VegurLight,Helvetica,sans-serif;
+	color: #ffffff;
+	background: none repeat scroll 0 0 #2D78D2;
+	-moz-border-radius: 3px 3px 0 0; 
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#729FCF', endColorstr='#ACCEF3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#729FCF), to(#ACCEF3)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #729FCF,  #ACCEF3); /* for firefox 3.6+ */
+	text-shadow: 0px 1px 0px #3165a3;
+	border: 1px solid #16549C;
+	}
+	
+.ui-tabs .ui-tabs-nav li a:active, 
+.ui-tabs .ui-tabs-nav li a:focus {
+	outline:0; 
+	color: #000;
+	}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	font-family: VegurLight,Helvetica,sans-serif;
+	-moz-border-radius: 3px 3px 0 0; 
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+    	background: none repeat scroll 0 0 #2D78D2;
+	color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#729FCF', endColorstr='#3465A4'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#729FCF), to(#3465A4)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #729FCF,  #3465A4); /* for firefox 3.6+ */
+	text-shadow: 0px 1px 0px #3165a3;
+	border: 1px solid #16549C;
+	}
+	
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
+	font-family: VegurLight,Helvetica,sans-serif;
+	color: #ffffff;
+	background: none repeat scroll 0 0 #2D78D2;
+	-moz-border-radius: 3px 3px 0 0; 
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#729FCF', endColorstr='#ACCEF3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#729FCF), to(#ACCEF3)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #729FCF,  #ACCEF3); /* for firefox 3.6+ */
+	text-shadow: 0px 1px 0px #3165a3;
+	border: 1px solid #16549C;
+	}
+	
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled  {
+	font-family: VegurLight, Helvetica, sans-serif;
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { 
+     cursor: pointer; 
+} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-hide { display: none !important; }

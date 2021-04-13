@@ -1,0 +1,60 @@
+# For now, restrict access to the RNADB sites only to active users 
+# in the development cycle. The authentication is provided via the 
+# GA Tech netid / username login credentials: 
+SSLOptions +StrictRequire
+SSLRequireSSL
+AuthType Cas
+Require user cheitsch3 erogers8 spoznanovic3 mschmidt34 asaaidi3
+
+# Some initial configuration options:
+SetEnv TZ US/Eastern
+SetEnv SERVER_ADMIN gtdmmb@gatech.edu
+
+ServerSignature off
+AddDefaultCharset UTF-8
+AddDefaultCharset ISO-8859-1
+DefaultLanguage en-US
+
+# Restrict Apache directory indexing (displaying the contents of 
+# a directory with links to files) by default:
+DirectoryIndex disabled
+Options -Indexes
+IndexIgnore *
+
+Options -FollowSymLinks
+
+# LIMIT UPLOAD FILE SIZE TO PROTECT AGAINST DOS ATTACK:
+# Specified in bytes: 0-2147483647 (max 2GB)
+LimitRequestBody 10240000
+
+# Deny access to all directories and files at first, 
+# permit authenticated users from above to view them 
+# over the web on a case-by-case basis:
+Order Allow,Deny
+Deny from all
+
+# Deny access to filenames starting with dot(.)
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Allow users access to files within the frontend and 
+# backend directory locations:
+<DirectoryMatch "FrontEnd/(|css|images|js)">
+    Order Deny,Allow
+    Allow from all
+</DirectoryMatch>
+<DirectoryMatch "Admin/(|css|images|js)">
+    Order Deny,Allow
+    Allow from all
+</DirectoryMatch>
+<DirectoryMatch "Downloads/">
+    Order Deny,Allow
+    Allow from all
+</DirectoryMatch>
+<DirectoryMatch "Docs/">
+    Order Deny,Allow
+    Allow from all
+</DirectoryMatch>
+

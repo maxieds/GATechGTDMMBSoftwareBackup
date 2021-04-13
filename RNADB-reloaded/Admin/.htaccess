@@ -1,0 +1,9 @@
+AuthType Cas
+Require user desposito6 cheitsch3 erogers8 filoseta davidmur cwang463 edrellich3 agd8 qhe41 hharrington6 spoznanovic3 fbarreracruz3 tgreenwood3 akirkpatrick3 gjohnston9 mielusic3 mschmidt34 iyoon31 asaaidi3
+
+<IfModule mod_php7.2.c>
+     php_value upload_max_filesize 42M
+     php_value post_max_size 42M
+     php_value max_execution_time 300
+     php_value max_input_time 300
+</IfModule>

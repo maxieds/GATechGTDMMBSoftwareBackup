@@ -1,0 +1,32 @@
+.liInline {
+    /* with fix for IE */
+    display:inline;
+    display:inline-block;
+    zoom:1;
+}
+body {
+    background: #779BC8;
+}
+#tabs {
+    background: #C1D7EE;
+    margin:     15px;
+    padding:    15px;
+}
+#tabs-1 {
+    background: none;
+}
+a .ui-tabs-selected {
+    background: #F3F3F3;
+}
+hr {
+    height: 2px; 
+    border: none;
+    border-top: dotted 2px #204A87; 
+    color: none; 
+    background-color: none;
+}
+span .loginSummaryStats {
+    color: #204A87;
+    font-weight: bold;
+    font-size: 12.5pt;
+}

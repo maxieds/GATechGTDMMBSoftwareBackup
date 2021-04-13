@@ -1,0 +1,130 @@
+.liInline {
+    /* with fix for IE */
+    display: inline;
+    display: inline-block;
+    zoom:    1;
+}
+
+.botLink {
+	border-radius: 0px 0px 8px  8px;
+}
+.confirmBox {
+	font-family: monospace;
+	padding: 15px;
+	width: 42%;
+	align: center;
+}
+.divLink { 
+	text-align:center;
+	font-weight: bold;
+	background: #3465A4;
+	border: 1px solid #000;
+	width: 100%;
+	padding: 15px;
+	color: #EEEEEC;
+}
+.divLink:Hover {
+	background: #a4d47d;
+}
+.downloadButton {
+ 	font-size: small;
+}
+.formItem {
+	margin-left: 50px;
+}
+.formHeader {
+ 	font-weight:  bold;
+ 	padding-top:  25px;
+ 	padding-left: 20px;
+}
+.formHeader2 {
+ 	font-weight:  italic;
+ 	margin-left:  3.5%;
+ 	padding-top:  15px;
+ 	padding-left: 20px;
+}
+.leftMain {
+	float:left;
+	width:800px;
+	padding:10px;
+	padding-left:25px;
+}
+.navDiv {
+	float:left;
+	width:180px;
+	padding:15px;
+}
+.rnaTable {
+ 	font-size: small;
+}
+.sizeBox {
+	font-family : monospace;
+	position    : fixed;
+	height      : 98%;
+	width       : 40%;
+	top         : 0px;
+	right       : 3px;
+	border      : none;
+	border-left	: 2px groove black;
+	padding	    : 10px;
+    z-index     : 10000000;
+    opacity     : 0.98;
+    background  : #204A87 url(../images/rnadbSearchResults.png) no-repeat;
+}
+.topLink {
+	margin-top: 50px;
+	border-radius: 8px 8px 0px 0px;
+}
+h1 .pageHeader {
+    background: #E6DE98;
+    font-size: 16pt;
+    font-weight: bold;
+ 	padding: 12px;
+ 	padding-left: 30px;
+}
+h2 {
+   font-size: 16pt;
+   font-weight: bold;
+   padding: 5px;
+   padding-left:   2px;
+   padding-bottom: 0px;
+   margin-top:     5px;
+   margin-bottom:  0px;
+}
+a .ui-tabs-selected {
+    background: #F3F3F3;
+}
+#tabs {
+    background: #E6DE98;
+}
+body {
+    background-color: #204A87;
+}
+hr .searchResults {
+    border: 1px dashed #3465A4;
+}
+span .innerSearchResultsList {
+    width: 92%; 
+    height: 41%; 
+    font-size: 8pt;
+    background-color: #FCE94F;
+    color: #000000;
+}
+table span b .searchParams {
+    font-size: 9pt;
+    width:     90%;
+    height:    30%;
+    color: #EEEEEC;
+} 
+span .searchResultsSummaryText {
+    color: #EEEEEC;
+}
+span .searchResultsBoxText {
+    color: #EEEEEC;
+}
+h2 .searchResultsBoxText {
+    color: #EEEEEC;
+}
+a {
+     color: #025066;
+}

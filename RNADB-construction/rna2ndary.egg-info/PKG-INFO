@@ -1,0 +1,10 @@
+Metadata-Version: 1.1
+Name: rna2ndary-with-vienna
+Version: 1.1
+Summary: Tools to generate the RNADB sequences data.
+Home-page: https://github.gatech.edu/akirkpatrick3/rnadb-construction
+Author: Fidel Barrera-Cruz; Modified by Maxie D. Schmidt
+Author-email: fidelbc@math.gatech.edu; maxieds@gmail.com
+License: GPL
+Description: Python scripts and utilities to generate the RNADB sequences CSV entry data.
+Platform: Linux, *BSD, Mac OSX (Darwin)
